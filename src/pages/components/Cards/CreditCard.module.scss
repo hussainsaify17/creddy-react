@@ -1,0 +1,31 @@
+.cardContainer {
+    /* max-width: 250px; */
+    margin: 0 auto;
+    /* background-color: #272c3a; */
+    background-image: linear-gradient(#cfdfd5, #e6efea, #ebf1ed);
+
+    & .cardImgTop {
+        width: '300px';
+        height: auto;
+        max-width: 300px;
+        max-height: 100px;
+    }
+
+    & .cardBody {
+        background-size: cover;
+        background-position: center;
+    }
+
+    @media (max-width: 576px) {
+        width: 100%;
+    }
+}
+
+// .fade-enter {
+//     opacity: 0;
+// }
+
+// .fade-enter-active {
+//     opacity: 1;
+//     transition: opacity 500ms;
+// }

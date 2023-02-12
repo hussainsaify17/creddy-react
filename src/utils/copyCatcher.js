@@ -143,6 +143,6 @@ class CreditCard {
   }
 }
 
-let card = new CreditCard()
-console.log(card.cardDetails)
+// let card = new CreditCard()
+// console.log(card.cardDetails)
 // copy(card.cardDetails)
